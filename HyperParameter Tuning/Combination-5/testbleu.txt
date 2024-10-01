@@ -1,0 +1,83 @@
+['je', 'me', 'suis', 'dit', '``', 'elle', 'est', '<unk>', 'elle', 'descend', 'avec', 'une', 'belle', 'mais', 'ce', "n'est", 'pas', 'si', 'elle', 'va', 'épouser', 'le', 'gars', "''", "''", "''", "''", "''", "''", "''", "''", "''", "''", 'les', '<unk>', "''", "''", "''", "''", "''", "''", "''", "''", "''", "''", "''", "''"]	 0.1385
+['nous', 'savons', 'que', '80', 'pour', 'cent', 'de', 'la', 'vie', 'la', 'plupart', 'des', 'moments', 'de', 'temps', 'à', 'la', 'plus', 'de', '35', 'ans', "l'âge", 'de', 'vie', 'les', 'jours', 'comptent', 'pour', 'cent', 'les', 'plus', 'les', 'règles', 'de', 'localisation', 'comptent', 'plus', 'comptent', 'par', 'âge', 'les', 'plus', 'les', 'plus', 'les', 'plus', 'comptent', 'comptent', 'comptent', 'comptent', 'comptent', 'comptent', 'pour', 'les', 'règles', 'comptent', 'comptent', 'comptent']	 0.1850
+["c'est", 'vrai']	 0.4359
+['ok', 'maintenant', 'cela', 'semble', 'un', 'petit', 'dessin', 'mais', 'pas', 'les', 'enjeux', '<unk>', 'sont', 'des', 'enjeux', 'élevés', 'les', 'enjeux', 'les', 'enjeux', 'mais', 'les', 'enjeux', 'les', 'enjeux']	 0.1486
+['elle', 'venait', 'juste', 'un', 'nouveau', 'livre', 'de', 'new', 'yorker', 'elle', 'allait', 'marcher', 'dans', 'son', 'pasteur', 'de', 'son', 'pasteur', 'mais', 'elle', 'avait', 'quitté', 'beaucoup', 'de', '<unk>', 'mais', 'elle', 'avait', 'été', 'accepté', 'pour', 'que', 'les', 'mots', '<unk>', '<unk>', '<unk>', '``', '<unk>', "''", "''", 'les', 'mots', "''", 'les', 'mots', "''", 'les', 'mots', 'matin', "''", '<unk>', '<unk>', '<unk>', '...', '...', 'matin', "''", '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', "''", 'les', 'mots', 'au-delà', 'de', 'suite', 'au-delà', 'de', 'suite', 'au-delà', 'de', '<unk>']	 0.1087
+['deuxièmement', 'je', 'pouvais', 'contrôler', 'cette', 'molécule', 'urbaine', 'est', '<unk>']	 0.1003
+['nous', 'avons', 'donc', 'passé', 'ce', 'livre', 'et', 'elle', 'a', 'trouvé', 'une', 'vieille', 'dame', '<unk>', 'qui', 'a', 'travaillé', 'à', 'une', 'autre', 'groupe', 'de', '<unk>', 'à', 'un', 'état']	 0.1988
+['merci']	 0.1925
+['mais', 'comment', '<unk>', 'son', 'rôle', 'et', 'à', 'la', 'recherche', 'de', 'la', "d'information", '<unk>', 'nous']	 0.1144
+['merci']	 0.1925
+["j'ai", 'peur', 'que', 'pour', 'le', 'reste', 'du', 'reste', 'de', 'ma', 'vie', 'quelques', 'mots', 'que', 'je', 'pouvais', 'être', 'la', 'meilleure', 'espoir', 'pour', 'la', 'meilleure', 'pourraient', 'être']	 0.3599
+['il', 'y', 'a', 'beaucoup', 'de', 'vie', 'la', 'bonne', 'bonne', 'bonne', 'bonne', 'bonne', 'bonne', 'espoir']	 0.0000
+['par', 'exemple', "c'est", 'par', 'exemple', 'que', 'je', '<unk>', '<unk>', '<unk>', '``', 'bonheur', "''", 'chinois', "''", 'dans', '``', '<unk>', "''", "''", "''", "''", 'les', 'sciences', 'de', 'joie', "''", 'les', 'sciences', "''", 'les', '<unk>', "''", '<unk>', "''", 'les', 'mots', '<unk>', 'riz', '<unk>', "''", 'riz', 'riz', '<unk>', '<unk>', '``', 'bonheur', "''", '<unk>', "''", '<unk>', "''", '<unk>', "''", '<unk>', "''", 'caca', "''", 'les', 'sciences', "''", 'les', 'sciences', "''"]	 0.1123
+['donc', 'un', 'jour', 'je', 'suis', 'un', 'petit', 'engagement', 'à', "l'école", 'et', 'je', 'suis', 'trop', 'tard', 'dans', 'les', 'filles', 'les', 'filles', 'les', 'filles', 'les', 'filles', 'quelques', 'mois', 'les', 'filles', 'les', 'filles']	 0.2143
+['<unk>']	 0.0035
+['nous', 'pensons', 'à', 'une', '<unk>', '<unk>', 'dans', 'les', 'thé', '<unk>']	 0.4172
+['vous', 'savez', '<unk>', '<unk>', 'à', 'la', 'campagne', 'de', 'la', 'campagne', 'si', 'elles', 'voulaient', 'monter', 'les', '<unk>', 'grandir', 'avec', 'lui']	 0.1609
+['il', 'dit', '``', 'une', 'femme', 'qui', 'nous', 'faut', 'que', 'nous', 'avons', 'besoin', 'de', 'nous', '<unk>', 'de', 'la', '<unk>', 'de', 'la', 'plupart', "d'entre", 'nous', 'et', 'que', 'les', 'sentiments', 'du', 'génie', 'est', 'plus', 'important', "''", "''", "''", "''", 'des', 'contraintes', 'qui', 'nous', 'ont', 'besoin', 'de', 'sécurité', "''", 'protégés', '»', 'protégés', 'protégés', 'protégés', 'protégés', 'protégés', 'protégés', 'protégés', 'protégés', 'protégés', '<unk>', 'de', 'nous', '<unk>', '<unk>', '<unk>', 'et', 'de', 'la', 'personne', 'qui', 'nous', 'les', 'sentiments', 'de', '<unk>', 'et', 'et']	 0.1130
+['en', 'fait', 'plus', 'grande', 'échelle', 'nous', 'sommes', 'plus', 'minces', 'que', 'nous', 'sommes', 'devenus', 'plus', 'grands', 'plus', 'grands']	 0.1927
+["c'est", 'une', 'façon', 'de', 'aller']	 0.7047
+["c'est", 'un', 'des', 'fois', 'que', 'nous', 'avons', '<unk>', 'dans', 'les', '<unk>', 'et', 'je', 'trouve', 'très', 'bien', 'cela', '<unk>', 'mais', 'je', 'trouve', 'aussi', 'bien', 'plus', 'loin', 'les', 'choses', 'mais', 'les', 'plus']	 0.1589
+["j'ai", 'eu', '10', 'ans', 'sur', 'un', 'an', 'sur', 'mon', 'père', '<unk>', 'avec', 'ma', 'passion', 'des', '<unk>', 'dans', 'le', 'nord', 'du', 'nord', 'du', 'nord', 'du', 'nord', 'du', 'port', 'des', 'alentours', 'plus', '<unk>', 'des', 'mots', 'les', 'archives', '<unk>', 'des', '<unk>', 'les', 'longs', '<unk>', 'les', '<unk>', 'dans']	 0.1297
+['ce', 'qui', 'est', 'comme', 'pour', 'porter', 'la', '<unk>', 'et', 'que', 'ça', '<unk>']	 0.1552
+["c'est", 'très', 'mauvais', 'pour', 'la', 'mauvaise', 'travailleur']	 0.2019
+['et', 'puis', 'il', 'y', 'a', 'ce', 'que', "j'ai", 'inventé', 'notre', 'incrédulité', 'moléculaire']	 0.5782
+["c'était", 'un', 'petit', 'peu', 'plus', 'tard', "j'ai", 'commencé', 'à', 'mes', 'recherches', 'avec', 'mes', 'recherches', 'et', 'je', "l'ai", 'rencontré', 'cette', 'jeune', 'homme']	 0.2093
+['regardez']	 0.1925
+["j'ai", 'toujours', 'adoré', 'que', 'la', 'bouche', 'et', 'mes', '<unk>', 'et', 'ma', 'manche', 'de', 'la', 'même', 'taille', 'même', 'les', 'mêmes']	 0.1361
+["j'ai", '<unk>', 'là-dessus']	 0.0735
+['chaque', 'fois', 'que', "j'ai", 'fait', 'une', 'scène', 'de', '``', '<unk>', "''", '<unk>', "''", '<unk>', '<unk>', '<unk>', "''", "''", "''"]	 0.2174
+['en', '<unk>', "j'ai", 'déménagé', 'et', "j'ai", 'déménagé', 'à', 'la', 'première', '<unk>', 'était', 'une', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', 'les', '<unk>', 'les', '<unk>']	 0.1610
+["j'ai", 'été', 'invité', 'une', '<unk>', 'sur', 'le', 'câble', 'sur', 'les', 'nouvelles', '<unk>', '``', '<unk>', "''", 'les', '<unk>', "''", "''", "''", "''", "''", "''", "''", "''", "''", 'des', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '»', '<unk>', '»', '<unk>', '»', '<unk>', "''", 'les', '<unk>', '»', "''", "''", "''", "''", "''"]	 0.0960
+['un', '<unk>', 'obsédé', 'même', 'que', "j'ai", '<unk>', 'mes', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>']	 0.0989
+['et', "j'ai", 'fondé', 'un', 'croquis', 'qui', 'a', 'un', 'croquis', 'à', 'donner', 'des', 'enfants', 'pour', 'les', 'enfants', 'une', 'bonne', 'chance', 'de', 'la', 'chance', 'me', 'donnés', 'moi', 'moi', 'mes', 'parents', 'mes', 'parents', 'moi', 'moi', 'moi', 'moi', 'mes', 'parents', 'mes', 'enfants', 'mes', 'parents']	 0.1671
+['mais', 'la', 'propre', '<unk>', 'à', "l'université", 'de', 'riz', 'aux', '<unk>', 'une', 'meilleure', 'meilleure', 'meilleure', 'façon', 'de', 'répondre']	 0.1927
+['nous', 'avons', 'entendues', 'dû', 'retiré', 'les', 'deux', 'derniers', 'jours', 'ici']	 0.2438
+['même', 'la', 'nasa', 'a', 'été', '<unk>', "d'une", 'autre', 'portion']	 0.1707
+['ce', "n'est", 'pas', 'vrai', 'que', 'nous', 'ne', 'pouvons', 'résoudre', 'des', 'problèmes', 'de', 'technologie', 'les', 'problèmes', 'les', 'problèmes', 'les', 'problèmes', 'les', 'problèmes', 'les', 'problèmes', 'les', 'problèmes', 'pourraient', 'pas', 'les', 'problèmes', 'possibles', 'les', 'problèmes', 'les', 'problèmes', 'possibles', 'possibles', 'les', 'problèmes', 'possibles', 'les', 'problèmes', 'les', 'problèmes', 'les', 'problèmes', 'les', 'problèmes']	 0.0884
+['ils', 'sont', 'en', 'train', 'de', 'mettre', 'en', 'place', 'un', 'peu', 'de', 'mémoire', 'et', 'ils', 'sont', 'bien', 'amusés', 'vos', '<unk>', 'vos', 'mains', 'vos', 'mains']	 0.1127
+['ok', '<unk>', 'vos', 'yeux']	 0.1395
+['tout', 'le', 'monde', 'qui', '<unk>', 'dans', 'ce', 'système', 'va', 'vous', 'donner', 'cette', 'mémoire', 'une', 'mémoire']	 0.1965
+['et', 'il', 'était', 'incroyablement', 'incroyablement', 'incroyablement', 'très', 'bien', 'mais', 'il', 'était', 'une', 'fenêtre', 'qui', 'nous', 'amène', 'à', 'ce', 'qui', 'nous', 'rend', 'les', 'souvenirs', 'dont', 'nous', 'sont', 'les', 'choses']	 0.1304
+['quelques', 'années', 'à', 'peu', 'près', 'quelques', 'chercheurs', 'à', "l'université", 'de', "l'université", 'de', "l'université", 'de', 'la', 'mémoire', '<unk>', 'dans', 'le', 'labo', 'les', 'labo', 'les', '3', 'les', '3', 'chercheurs', 'supérieures', 'élevés', 'de', 'la', '<unk>']	 0.1304
+["c'est", 'son', 'nom']	 0.7467
+['une', 'des', 'structures', 'plus', '<unk>', 'pour', 'les', '<unk>', 'de', '<unk>', '<unk>', '<unk>', 'des', 'années', '90', 'les', '<unk>']	 0.1927
+['alors', 'comment', 'cela', 'fonctionne']	 1.0106
+['le', 'problème', 'était', 'un', 'programme', 'qui', 'a', 'été', 'un', '<unk>', '<unk>']	 0.2021
+["j'ai", 'fini', 'par', 'sortir', 'cette', 'même', 'que', "j'ai", 'eu', 'une', 'année', "j'ai", 'recouvert', 'tôt', "l'année", 'plus', 'tôt']	 0.1927
+['ils', 'travaillent', 'parce', "qu'ils", 'font', 'des', 'travaux']	 0.2019
+['certains', 'de', 'mes', 'gosses', "n'étaient", 'pas', 'bien', 'bien', 'bien']	 0.1659
+['ce', "n'était", 'pas', 'bien', 'sûr', 'la', 'santé', 'et', "c'était", 'ne', '<unk>', 'pas', '<unk>']	 0.2435
+['nos', 'données', 'montrent', 'très', 'clairement', "qu'il", 'y', 'a', 'beaucoup', 'de', 'individus', 'qui', 'ne', 'se', 'serre', 'pas', 'à', 'travers', 'leur', '<unk>', 'les', '<unk>', 'les', 'individus', 'qui', 'vivent', 'simplement', 'les', 'individus', 'qui', 'vivent', 'simplement', 'bien', 'plus', 'les', 'individus', 'qui', 'font', 'les', 'individus', 'qui', 'font', 'qui', 'ne', 'sont', 'simplement', 'les', 'individus', 'qui', 'ne', '<unk>']	 0.2671
+['et', 'aussi', 'ils', 'ont', 'dans', 'cet', 'hiver', 'commune', 'des', 'différentes', 'de', '<unk>', '<unk>', 'devient', 'une', 'partie', 'de', 'la', 'dernière', 'scène', 'de', "l'architecture"]	 0.1574
+['donc', 'la', 'première', 'chose', 'que', 'nous', 'avons', 'fait', 'essayé', 'de', 'créer', 'une', 'connexion', 'entre', 'ces', 'rues', 'les', 'rues', 'les', '<unk>']	 0.5476
+['et', 'puis', 'sous', 'ces', '<unk>', 'nous', 'avons', 'réfléchi', 'à', 'propos', 'de', 'nouvelles', 'public', 'avec', 'la', '<unk>', 'et', 'les', 'hallucinations', '<unk>', 'qui', 'rendrait', 'ces', 'barres', 'de', 'cette', 'série', '<unk>', 'ces', 'espaces', 'les', 'espaces', '<unk>', '<unk>', 'les', '<unk>', 'les', 'espaces', 'les', 'espaces']	 0.1732
+['le', 'volume', 'a', 'cette', 'forme', 'que', '<unk>', 'a', '<unk>', 'avec', 'trois', 'types', 'de', 'lumière', 'et', 'aussi', 'par', 'la', 'lumière', 'sur', 'le', 'sol', 'marin', 'et', 'aussi', 'un', 'quartier', 'gauche', 'et', 'dans', 'un', 'quartier', 'très', 'dense', 'dans', 'un', 'quartier', 'haut', 'niveau', "d'études", 'et', 'des', '<unk>', 'et', 'des', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', 'un', 'peu', 'près', 'de', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', '<unk>', "l'ingénieur", 'sur', 'une', 'série', "d'études", 'les', 'espaces', 'verts', 'les', 'espaces', 'verts', '<unk>', '<unk>', 'les', 'espaces', 'différentes', 'lignes', 'de', "l'ingénieur", 'les', '<unk>', 'dans', 'les', '<unk>', 'les', 'espaces', 'connus', 'les', 'espaces', 'connus']	 0.2027
+["d'abord", 'les', 'gens', 'pensent', 'que', 'les', 'gens', 'pensent', 'à', 'la', 'confiance', 'a', 'des', '<unk>']	 0.2208
+['avez-vous', 'de', 'confiance', "''", '<unk>', 'les', 'enseignants', "''", '»', 'les', 'professeurs', '»', '»', '»', "''", '»', '»']	 0.0979
+['ce', "n'est", 'pas', 'ce', 'que', 'je', '<unk>', 'à', 'la', 'vitesse']	 0.7387
+['mais', "c'est", 'ce', 'que', 'nous', 'cherchons', 'les', '<unk>', 'avant', 'de', 'confiance', 'avant', 'de', 'confiance', 'confiance', 'avant', 'confiance', 'avant', 'confiance', 'avant']	 0.1197
+['nous', 'pouvons', 'faire', 'ça', 'pour', 'nous']	 0.1304
+['si', 'vous', 'faites', 'un', 'vulnérable', 'pour', 'les', 'autres', 'puis', 'que', "c'est", 'très', 'bien', 'que', 'vous', 'êtes', 'conscient', 'de', 'la', 'confiance', 'et', 'vous', 'avez', 'des', 'pères', 'la', 'confiance', 'que', 'vous', 'avez', 'tort', 'les', 'autres', 'les', 'choses', 'et', 'que', 'vous', 'les', 'questions']	 0.1816
+['oui']	 0.1925
+['il', 'a', '<unk>', 'le', 'fait', 'que', 'le', '<unk>', '<unk>', 'un', 'armée', 'pour', '<unk>', 'le', 'gouvernement', 'le', 'gouvernement', 'gouvernement']	 0.1445
+['il', 'y', 'a', 'beaucoup', 'de', 'exceptions', 'et', 'je', 'vais', 'laisser', 'tomber', 'dans', 'les', '<unk>', 'de', "n'importe", 'quel', 'point']	 0.2990
+['donc', 'essayer', 'de', '<unk>', 'ça']	 0.1211
+['ce', "n'est", 'pas', 'autant', 'que', 'beaucoup', 'de', 'femmes', 'nous', 'avons', 'simplement', 'de', 'femmes', 'nous', 'avons', 'juste', 'pour', 'le', 'congrès']	 0.1831
+['la', 'définition', 'de', 'la', 'rue', 'est', 'déjà', 'déjà', 'déjà', 'élevés']	 0.3124
+['merci']	 0.1925
+['il', 'a', 'un', 'but', 'de', 'la', 'vie']	 0.2640
+['je', 'suis', 'retourné', 'à', '<unk>', "l'année", 'dernière', 'et', 'je', 'suis', 'allé', 'à', 'visiter', 'mon', 'hôpital', '<unk>', "j'ai", 'été', '<unk>', 'dans', 'le', 'passé']	 0.2931
+['<unk>', 'a', 'vu', 'une', 'occasion', 'et', 'elle', 'brille']	 0.2223
+['il', 'a', 'créé', 'une', 'ferme', 'dehors', 'de', '<unk>', 'et', 'a', 'commencé', 'à', '<unk>', 'et', 'il', 'a', 'dit', "qu'il", 'a', 'dit', 'que', 'la', '<unk>', '<unk>', '<unk>', '<unk>', 'les', '<unk>', 'les', '<unk>', 'et', 'il', 'a', 'commencé', 'à', 'les', '<unk>', 'les', '<unk>', 'et', '<unk>', 'et', '<unk>', 'et', '<unk>', 'qui', 'a', 'commencé', 'à', '<unk>', 'et', '<unk>', 'les', '<unk>', 'les', '<unk>', '<unk>', 'et', '<unk>', '<unk>', '<unk>', 'les', '<unk>', '<unk>', '<unk>', 'les', '<unk>', 'et', '<unk>', 'qui', 'a', 'dit', 'les', '<unk>', 'les', '<unk>', 'les']	 0.0994
+['il', "s'agit", "d'une", 'base', 'social']	 0.0000
+['parce', 'que', 'tout', 'à', 'coup', 'dans', 'ma', 'plage', 'avait', 'fait', 'de', 'la', 'plage', 'un', 'petit', 'long', 'island', 'pendant', '8', 'kilomètres', 'de', '8', 'kilomètres', 'de', 'kilomètres', 'carrés', 'et', 'mon', 'sable', '<unk>', 'à', 'la', 'taille', 'de', 'la', 'taille', 'de', 'ces', 'villes', 'avait', 'la', 'taille', 'de', 'la', 'taille', 'les', 'villes', 'série', 'de', 'la', 'taille', 'série', 'de', 'la', 'taille', 'les', 'villes', 'les', 'villes', 'les', 'villes', '<unk>', '<unk>', 'les', 'villes', 'les', 'villes', 'et', 'de', 'long', 'les', 'villes', 'les', 'chauves-souris', 'les', 'chauves-souris']	 0.1161
+['nous', 'avons', 'commencé', 'à', 'voir', 'où', 'les', '<unk>', '<unk>', 'à', '<unk>', 'à', '<unk>']	 0.1074
+['en', 'fait', 'rendant', 'des', 'idées', 'en', '1984', 'avant', 'de', '<unk>']	 0.0822
+['vous', 'êtes', 'prêts', 'à']	 0.5175
+['comme', 'le', 'vieux', 'proverbe', 'disait', '2', 'sigma', 'est', 'une', 'foule']	 0.1490
+['le', 'soleil', 'et', 'la', 'lune', 'et', 'la', 'lune', "c'est", '<unk>']	 0.5096
+['nous', 'savons', 'que', 'le', 'japon', 'est', 'la', 'terre', 'du', 'soleil']	 0.6067
+['voici', 'une', 'diapositive', 'que', 'je', 'devais', 'me', 'servir', 'et', 'empêcher', 'de', 'la', 'scène', 'et', "d'obtenir", 'la', 'scène', 'merci']	 0.2209
+Averaged over all Sentences : 0.2256
