@@ -5,12 +5,12 @@ import math
 import torch.optim as optim
 import numpy as np
 import torch.optim as optim
-from train import device
+# from train import device
     
 #<----------------------------------------------Feed Forward Neural Network------------------------------------------------------>
 
 class FeedForward(nn.Module):
-    def __init__(self, model_dim, hid_dim, dropout=0.1):
+    def __init__(self, model_dim, hid_dim, device, dropout=0.1):
         super(FeedForward, self).__init__()
         self.l1 = nn.Linear(model_dim, hid_dim)
         self.ac1 = nn.ReLU().to(device)
@@ -71,18 +71,19 @@ class MultiHeadAttention(nn.Module):
 #<---------------------------------------------------------Encoder--------------------------------------------------------------->
 
 class Encoder(nn.Module):
-    def __init__(self, model_dim, num_heads, hid_dim, dropout):
+    def __init__(self, model_dim, num_heads, hid_dim, dropout, device):
         super(Encoder, self).__init__()
         self.self_attn = MultiHeadAttention(model_dim, num_heads,dropout)
         self.norm = nn.LayerNorm(model_dim)
         self.ffn = FeedForward(model_dim, hid_dim,dropout)
         self.dropout = nn.Dropout(dropout)
+        self.device = device
 
     def forward(self, inp, mask):
 
         att_score = self.self_attn(inp, inp, inp, mask)
         inp = self.norm(inp + self.dropout(att_score))
-        ffn_out = self.ffn(inp).to(device)
+        ffn_out = self.ffn(inp).to(self.device)
         inp = self.norm(inp + self.dropout(ffn_out))
 
         return inp

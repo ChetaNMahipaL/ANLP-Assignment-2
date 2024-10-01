@@ -115,3 +115,8 @@ class PosEncoding(nn.Module):
         inp = inp + self.pos_code[:, :seq_len]
 
         return inp
+    
+#<--------------------------------------------Metric----------------------------------------------------------------->
+def smoothedBleu(reference, candidate):
+    smoothing_function = SmoothingFunction().method7
+    return sentence_bleu([reference], candidate, smoothing_function=smoothing_function)

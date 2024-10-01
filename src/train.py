@@ -5,8 +5,10 @@ import math
 import torch.optim as optim
 import numpy as np
 from utils import *
-from encoder import Encoder
-from decoder import Decoder
+# from encoder import Encoder
+# from decoder import Decoder
+import pickle
+from model import Transformer
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
@@ -44,7 +46,6 @@ word_freq_fr = {}
 word_freq_fr = create_freq(word_freq_fr, train_data_fr)
 word_freq_fr = create_freq(word_freq_fr,val_data_fr)
 
-threshold = 5
 train_data_fr = create_unk_emb(word_freq_fr,train_data_fr,threshold)
 val_data_fr = create_unk_emb(word_freq_fr,val_data_fr, threshold)
 
@@ -54,6 +55,17 @@ word2idx_fr, idx2word_fr = word2idx_fun(vocab_fr)
 
 # print(len(word2idx_en))
 # print(len(word2idx_fr))
+
+vocab_data = {
+    'en_word': word2idx_en,
+    'en_idx' : idx2word_en,
+    'fr_word': word2idx_fr,
+    'fr_idx' : idx2word_fr
+}
+
+# Save the dictionary to a file using pickle
+with open('./misc/vocab.pkl', 'wb') as f:
+    pickle.dump(vocab_data, f)
 
 #<------------------------------------------------------Word2Index------------------------------------------------------------->
 
@@ -70,75 +82,6 @@ valIdx_en = prepare_data(val_data_en, word2idx_en, max_len=Truncation)
 valIdx_fr = prepare_data(val_data_fr, word2idx_fr, max_len=Truncation)
 
 print("Created input for loading")
-
-#<-----------------------------------------------------Combining Encoder and Decoder---------------------------------------------->
-
-class Transformer(nn.Module):
-    def __init__(self, vocab_en, vocab_fr, model_dim, num_layer, num_heads, hid_dim, max_len, dropout=0.1):
-        super(Transformer, self).__init__()
-
-        self.vocab_en = vocab_en
-        self.vocab_fr = vocab_fr
-        self.model_dim = model_dim
-        self.embed_en = nn.Embedding(len(vocab_en), model_dim)
-        self.embed_fr = nn.Embedding(len(vocab_fr), model_dim)
-
-        self.pos_enc = PosEncoding(model_dim, max_len)
-        self.encoders = nn.ModuleList([Encoder(model_dim, num_heads, hid_dim, dropout) for _ in range(num_layer)])
-        self.decoders = nn.ModuleList([Decoder(model_dim, num_heads, hid_dim, dropout) for _ in range(num_layer)])
-        self.final_layer = nn.Linear(model_dim, len(vocab_fr))
-        self.max_len = max_len
-
-    def decode(self, src, max_len=40):
-        batch_size = src.size(0)
-
-        src_emb = self.pos_enc(self.embed_en(src))
-        for encoder in self.encoders:
-            src_emb = encoder(src_emb, None)
-
-        tgt = torch.ones(batch_size, 1).long().to(device)
-
-
-        for _ in range(max_len):
-
-            src_mask, tgt_mask = self.generate_square_subsequent_mask(src, tgt)
-            tgt_emb = self.pos_enc(self.embed_fr(tgt))
-            for decoder in self.decoders:
-                tgt_emb = decoder(tgt_emb, src_emb, src_mask, tgt_mask)
-
-            output = self.final_layer(tgt_emb)
-            next_word = output[:, -1:, :]
-            next_word = torch.argmax(next_word, dim=-1)
-            tgt = torch.cat((tgt, next_word), dim=1)
-            # tgt = out_labels
-
-        return tgt
-
-
-    def forward(self, src, target):
-        src = src
-        src_mask, target_mask = self.generate_square_subsequent_mask(src, target)
-        src_mask = src_mask
-        target_mask = target_mask
-        src_emb = self.pos_enc(self.embed_en(src))
-        target_emb = self.pos_enc(self.embed_fr(target))
-
-        for encoder in self.encoders:
-            src_emb = encoder(src_emb, src_mask)
-
-        for decoder in self.decoders:
-            target_emb = decoder(target_emb, src_emb, src_mask, target_mask)
-
-        return self.final_layer(target_emb)
-
-    def generate_square_subsequent_mask(self,src, target):
-        src_mask = (src != 0).unsqueeze(1).unsqueeze(2)
-        tgt_mask = (target != 0).unsqueeze(1).unsqueeze(3)
-        seq_length = tgt_mask.size(2)
-        nopeak_mask = (1 - torch.triu(torch.ones(1, seq_length, seq_length), diagonal=1)).bool()
-        tgt_mask = tgt_mask & nopeak_mask.to(device)
-        return src_mask, tgt_mask
-
 
 #<----------------------------------------Preparing DataLoader---------------------------------------------------------->
 
@@ -159,7 +102,8 @@ Dropout = 0.1
 learning_rate = 0.001
 
 Model = Transformer(vocab_en=vocab_en,vocab_fr=vocab_fr, model_dim=Model_dim, num_layer=Num_layer, num_heads=Num_Head,
-                        hid_dim=HID_DIM, dropout=Dropout)
+                        hid_dim=HID_DIM, max_len=MAX_LEN,device=device,dropout=Dropout)
+
 Model.to(device)
 
 CRITERION = nn.CrossEntropyLoss(ignore_index = word2idx_fr["<pad>"])
@@ -171,6 +115,7 @@ val_losses = []
 
 def training(model, dataloader_train, dataloader_val, criterion, optimizer, num_epochs):
 
+    print("Training Started")
     for epoch in range(num_epochs):
         model.train()
         total_loss = 0
@@ -238,4 +183,20 @@ print("Training and Validation Complete.")
 
 #<------------------------------------------- Save Model----------------------------------------------------------------------->
 
-torch.save(Trained_Model, 'transformer.pt')
+torch.save(Trained_Model.state_dict(), 'transformer.pt')
+
+hyperparameters = {
+    "Model_dim": 100,
+    "Num_Head": 4,
+    "Num_layer": 2,
+    "HID_DIM": 300,
+    "MAX_LEN": Truncation,  # If Truncation is a specific integer, use the number
+    "Dropout": 0.1,
+    "learning_rate": 0.001
+}
+
+with open('./misc/hyperparameters.pkl', 'wb') as f:
+    pickle.dump(hyperparameters, f)
+
+# if __name__ == "__main__":
+#     training()
